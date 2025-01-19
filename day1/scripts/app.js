@@ -3,13 +3,22 @@
 // IIFE  - Immediate Invoked Functional Expression
 (function(){
 
-    function DisplayHomePage(){
-        console.log("Calling DisplayHomePage...");
+    function DisplayHomePage() {
+        console.log("calling DisplayHomePage...")
+        let aboutUsbtn = document.getElementById("AboutUsbtn")
+        aboutUsbtn.addEventListener("click", function (){})
+        location.href= "about.html"
 
-        let aboutUsButton = document.getElementById("aAboutUsBtn");
-        aboutUsButton.addEventListener("click", function () {
-            location.href = "about.html";
-        });
+        let MainContent = document.getElementsByTagName("main")[0];
+        let MainParagraph = document.getElementById("p");
+
+        MainParagraph.setAttribute("id", "MainParagraph");
+        MainParagraph.setAttribute("class", "mt-3");
+        MainParagraph.textContent = "this is my first paragraph";
+
+        MainContent.append(MainParagraph);
+
+
     }
 
     function DisplayAboutPage(){
