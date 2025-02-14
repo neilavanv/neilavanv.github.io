@@ -1,0 +1,27 @@
+{
+  "users" :
+          [
+            {
+              "DisplayName" : "Shriya Saran",
+              "EmailAddress" : "shriyasaran37@gmail.com",
+              "Username" : "shriyaS",
+              "Password" : "123456"
+            },
+
+            {
+              "DisplayName" : "Lionel Messi",
+              "EmailAddress" : "daGoat10@gmail.com",
+              "Username" : "messi10",
+              "Password" : "101010"
+            },
+
+            {
+              "DisplayName" : "admin",
+              "EmailAddress" : "admin@durhamcollege.ca",
+              "Username" : "admin",
+              "Password" : "password"
+            }
+
+          ]
+
+}

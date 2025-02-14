@@ -3,47 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-
-    <link rel="stylesheet" href="./day1/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./day1/content/app.css">
+    <!-- CSS Section-->
+    <link rel="stylesheet" href="week6day2/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="week6day2/node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="week6day2/content/app.css">
 </head>
 <body>
-
-<header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./day1/products.html"><i class="fa-brands fa-product-hunt"></i> Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./day1/services.html"><i class="fa-solid fa-signs-post"></i> Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/day1/about.html"><i class="fa-solid fa-circle-info"></i> About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./day1/contact.html"><i class="fa-solid fa-phone"></i> Contacts</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+<header> </header>
 
 <main class="container">
-    <h1><i class="fa-solid fa-stethoscope"></i>Welcome to INFT 2202</h1>
+    <h1><i class="fa-solid fa-cloud"></i>
+        Welcome to INFT 2202</h1>
     <button id="AboutUsBtn" class="btn btn-primary">About Us</button>
+
+    <div id="weather" class="mt-5">
+        <h3>Weather Forecast</h3>
+        <p id="weather-data">Fetching weather forecast....</p>
+
+    </div>
 </main>
 
-<script src="./day1/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="./day1/scripts/app.js"></script>
+<!-- Scripting Section-->
+<script src="week6day2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="week6day2/scripts/app.js"></script>
 </body>
 </html>
