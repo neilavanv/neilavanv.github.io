@@ -51,7 +51,7 @@
     async function LoadHeader() {
         console.log("[INFO] LoadHeader Called ...");
 
-        return fetch ("header.html")
+        return fetch ("./day2/header.html")
             .then(response => response.text())
             .then(data => {
                 document.querySelector("header").innerHTML = data;
@@ -593,7 +593,7 @@
             case "About":
                 DisplayAboutPage();
                 break;
-            case "Contacts":
+            case "Contact":
                 attachValidationListeners();
                 DisplayContactsPage();
                 break;
